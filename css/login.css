@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, #a80084, #b80092, #c800a0, #d900af, #e900be, #f100b5, #f900ad, #ff00a4, #ff0084, #ff0062, #ff0040, #ff0017);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 400px;
+    height: 500px;
+    background-color: #000000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    color: #fff;
+}
+
+form > h1{
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:50px auto;
+}
+
+form > .inputs{
+    width: 100%;
+}
+
+form > .inputs > label{
+    font-size: 20px;
+    margin-left: 43px;
+}
+
+form > .inputs > .input_box{
+    width: 85%;
+    margin: 5px auto;
+    text-align: center;
+    border-bottom: 2px solid  rgb(255, 174, 187);;
+}
+
+form > .inputs > .input_box > i{
+    color: rgb(101, 98, 98);
+}
+
+form > .inputs > .input_box > input{
+    width: 85%;
+    padding: 8px;
+    border: none;
+    /* border-bottom: 2px solid rgb(255, 174, 187); */
+    font-size: 2.7vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    outline: none;
+    background-color: transparent;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+
+#forgot{
+    float: right;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: rgb(225, 0, 255);
+    font-size: 18px;
+}
+
+.button{
+    width: 100%;
+    text-align: center;
+}
+
+#submit{
+width: 80%;
+padding: 10px 0px;
+font-size: 15px;
+font-weight: 600;
+background-image: linear-gradient(to right, #a80084, #b80092, #c800a0, #d900af, #e900be, #f100b5, #f900ad, #ff00a4, #ff0084, #ff0062, #ff0040, #ff0017);
+border: none;
+outline: none;
+border-radius: 99px;
+color: #fff;
+cursor: pointer;
+}
+
+#register{
+font-size: 18px;
+color: rgb(225, 0, 255);
+}
+
+#optional_link{
+margin-top: 25px;
+}
+
+
+@media (max-width:768px) {
+form{
+    width: 300px;
+    
+}
+}
+
+

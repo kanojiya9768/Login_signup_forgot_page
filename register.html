@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+        content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/register.css">
+
+             <!-- //all firebase link  -->
+    <script
+    src="https://www.gstatic.com/firebasejs/9.9.1/firebase-app-compat.js"></script>
+<script
+    src="https://www.gstatic.com/firebasejs/9.9.1/firebase-firestore-compat.js"></script>
+<script
+    src="https://www.gstatic.com/firebasejs/9.9.1/firebase-auth-compat.js"></script>
+
+    <title>MovieInfo : Register</title>
+</head>
+
+<body>
+    <form id="Register_form" autocomplete="off">
+        <h1>Sign Up</h1>
+
+        <div class="inputs">
+
+            <label for="Username">username</label>
+            <div class="Emaild_id input_box">
+                <i class="fa-solid fa-user"></i><input type="email"
+                    placeholder="Type Email Id" id="Username" required>
+            </div>
+
+            <br>
+            <label for="password">Password</label>
+            <div class="password input_box">
+                <i class="fa-solid fa-lock"></i><input type="email"
+                    placeholder="Type Password" id="password" required>
+            </div>
+
+            <br>
+
+            <label for="cpassword">Confirm</label>
+            <div class="password input_box">
+                <i class="fa-solid fa-lock"></i><input type="email"
+                    placeholder="Confirm Password" id="cpassword" required>
+            </div>
+
+        </div>
+
+        <div class="button">
+            <input type="submit" name="submit" id="submit" value="Sign Up">
+        </div>
+
+        <p id="optional_link" style="color:#fff;">Or Login With ::  <a href="index.html" id="register">Sign In</a></p>
+    </form>
+
+
+    <script
+src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+<script src="js/register.js"></script>
+</body>
+
+</html>
